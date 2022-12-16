@@ -1,1 +1,5 @@
-print("Hello World!")
+cat("Program 6","\n \n")
+matrix1 <- matrix(c("mango", "apple", "banana", "cherry", "orange","grape", "pineapple","melon"), nrow =4 , ncol = 2)
+newMatrix<-rbind(matrix1 , c("strawberry", "blueberry"))
+print(newMatrix)
+cat("\n")
