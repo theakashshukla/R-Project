@@ -1,6 +1,3 @@
-# Write a program that asks the user for a number n and prints the sum of the numbers 1 to n
-
-cat("Program 2","\n \n")
+mat1 <- matrix(c(1:6), nrow = 3, ncol = 2)
 dimention = dim(mat1)
 print(dimention)
-cat("\n")
